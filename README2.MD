@@ -18,7 +18,7 @@ k$Time<-as.POSIXct(paste(k$Date," ",k$Time),format="%d/%m/%Y %H:%M:%S")
 ##Convert to Date
 k$Date <- as.Date(k$Date, format="%d/%m/%Y")
 
-##Subset : Febrero 2007
+##Subset : 01 and 02 on February 2007
 m<-subset(k,format(k$Date,"%d/%m/%Y")=="01/02/2007" | format(k$Date,"%d/%m/%Y")=="02/02/2007")
 
 
