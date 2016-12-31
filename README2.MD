@@ -1,10 +1,10 @@
-<b>PreprocessingCleanData.R contains the R code to read and preprocessing data (working directory defined and containing "household_power_consumption.txt" data source).
+##<b>PreprocessingCleanData.R contains the R code to read and preprocessing data (working directory defined and containing "household_power_consumption.txt" data source).
 </b><br>
-library(readr)
+library(readr)<br>
 <b>Set working directory
 setwd("D:/Coursera/DATA_SCIENCE/Course4/Week1/Assignment/Entrega")</b>
 
-
+<br>
 h<- read_delim("household_power_consumption.txt",";", escape_double = FALSE, col_types = cols(Global_active_power = col_number(), 
                 Global_intensity = col_number(), 
                 Global_reactive_power = col_number(), 
