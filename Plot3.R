@@ -1,0 +1,8 @@
+if(file.exists("Plot3.png")) file.remove("Plot3.png")
+png(filename = "Plot3.png",width = 480,height=480)
+plot(subset(m,1==1,c(2,7)),type="n",xlab="",ylab="Energy sub metering")
+lines(m$Time,m$Sub_metering_1,col="black")
+lines(m$Time,m$Sub_metering_2,col="red")
+lines(m$Time,m$Sub_metering_3,col="blue")
+legend("topright",c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty=c(1,1,1),col=c("black","red","blue"))
+dev.off()
