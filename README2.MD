@@ -13,8 +13,6 @@ h<- read_delim("household_power_consumption.txt",";", escape_double = FALSE, col
 k<-h[apply(h, 1, function(x){all(!is.na(x))}),]
 
 ##Convert to Time
-##d$Time<-as.POSIXct(d$Time,format="%H:%M:%S")
-##or  better 
 k$Time<-as.POSIXct(paste(k$Date," ",k$Time),format="%d/%m/%Y %H:%M:%S")
 
 ##Convert to Date
