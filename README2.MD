@@ -1,4 +1,4 @@
-##<b>PreprocessingCleanData.R </b>contains the R code to read and preprocessing data (working directory defined and containing "household_power_consumption.txt" data source).
+##<b>PreprocessingCleanData.R </b><br>contains the R code to read and preprocessing data (working directory defined and containing "household_power_consumption.txt" data source).
 <br>
 library(readr)<br>
 ##Set working directory
