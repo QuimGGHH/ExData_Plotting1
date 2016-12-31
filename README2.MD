@@ -1,5 +1,5 @@
-##<b>PreprocessingCleanData.R contains the R code to read and preprocessing data (working directory defined and containing "household_power_consumption.txt" data source).
-</b><br>
+##<b>PreprocessingCleanData.R </b>contains the R code to read and preprocessing data (working directory defined and containing "household_power_consumption.txt" data source).
+<br>
 library(readr)<br>
 <b>Set working directory
 setwd("D:/Coursera/DATA_SCIENCE/Course4/Week1/Assignment/Entrega")</b>
