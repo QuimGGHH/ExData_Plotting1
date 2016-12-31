@@ -1,6 +1,6 @@
 library(readr)
 ##Set working directory
-setwd("D:/Coursera/DATA_SCIENCE/Course4/Week1/Assignment/Entrega")
+##setwd("D:/Coursera/DATA_SCIENCE/Course4/Week1/Assignment/Entrega")
 
 
 h<- read_delim("household_power_consumption.txt",";", escape_double = FALSE, col_types = cols(Global_active_power = col_number(), 
